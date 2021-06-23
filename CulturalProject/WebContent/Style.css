@@ -1,0 +1,55 @@
+@charset "EUC-KR";
+
+		body{
+      		margin:0px;
+      	}
+        h1{
+            font-size: 45px;
+            text-align: center;
+            height: 80px;
+            border-bottom: 10px solid #D8D8D8;
+            margin:0px;
+            padding:20px;
+        }
+        
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            
+        }
+        #grid ol{
+            border-right: 10px solid #D8D8D8;
+            width:170px;
+            margin:0px;
+            padding-top: 10px;
+            line-height: 30px;
+            
+        }
+        #grid a{
+            color:blue;
+            
+        }
+        
+       
+        #main{
+            padding-top: 30px;
+            padding-left: 100px;
+        }
+        
+    
+        #dl{
+            border-color:  7px solid black;
+            background-color:white;
+            width: 130px;
+        }
+
+        #search{
+            border-color:  7px solid black;
+            background-color:#D8D8D8;
+            width: 80px;
+        }
+
+        #cont{
+        	padding-top:20px;
+        	padding-bottom:20px;
+        }
